@@ -18,7 +18,9 @@ Each functional unit test comprises of:
 - a python file with prefix: `test_{name_of_test}.py`
 
 ## 3. Proof of execution
-![image](https://user-images.githubusercontent.com/26175849/170573909-6511431f-afde-4a16-98f0-75c32b3da670.png)
-![image](https://user-images.githubusercontent.com/26175849/170574454-b3009680-d379-4c21-bb8a-555764fcd85e.png)
+![image](https://user-images.githubusercontent.com/26175849/170578073-73566f4c-6fc7-4768-8955-b58066d4d549.png)
+
+![image](https://user-images.githubusercontent.com/26175849/170577865-a466a0c2-6676-414a-a6ac-7f8a8dee6a00.png)
+
 
 
