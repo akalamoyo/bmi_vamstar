@@ -1,0 +1,10 @@
+[
+  {
+    "Gender":"Male",
+    "HeightCm":171,
+    "WeightKg":96,
+    "BMI":56.1,
+    "BMI Category":"Very severely obese",
+    "Health_risk":"Very high risk"
+  }
+]
