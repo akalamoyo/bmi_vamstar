@@ -10,7 +10,7 @@ class Helpers:
         """
         Calculate bmi
         """
-        return mass / height
+        return mass / (height ** 2)
 
     def get_bmi_category(self, bmi: float) -> str:
         """

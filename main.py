@@ -20,7 +20,7 @@ def bmi_category_and_health_risk(data: pd.DataFrame, obj: object) -> pd.DataFram
 
     data.loc[:, "HeightM"] = data["HeightCm"] / 100
     data.loc[:, "BMI"] = data.apply(
-        lambda x: x["WeightKg"] / x["HeightM"], axis=1
+        lambda x: obj.bmi_formular(x["WeightKg"], x["HeightM"]), axis=1
     ).round(1)
     data.loc[:, "BMI Category"] = data["BMI"].apply(obj.get_bmi_category)
     data.loc[:, "Health_risk"] = data["BMI"].apply(obj.get_health_risk)
